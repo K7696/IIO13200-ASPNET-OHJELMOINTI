@@ -46,6 +46,30 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TarjousLaskuri(4)", "Tarjou
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Lotto", "Lotto\", "{4AE62184-BDA8-4EF3-9C8E-69A5DBD7290C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56150"
+		Debug.AspNetCompiler.PhysicalPath = "Lotto\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56150\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56150"
+		Release.AspNetCompiler.PhysicalPath = "Lotto\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56150\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56150"
+		SlnRelativePath = "Lotto\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLLotto", "BLLotto\BLLotto.csproj", "{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +84,14 @@ Global
 		{F569076D-39A9-4A0B-8D3C-0C1D3D15DCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F569076D-39A9-4A0B-8D3C-0C1D3D15DCC4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{F569076D-39A9-4A0B-8D3C-0C1D3D15DCC4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4AE62184-BDA8-4EF3-9C8E-69A5DBD7290C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE62184-BDA8-4EF3-9C8E-69A5DBD7290C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE62184-BDA8-4EF3-9C8E-69A5DBD7290C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE62184-BDA8-4EF3-9C8E-69A5DBD7290C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
