@@ -149,7 +149,7 @@ public partial class Lotto : System.Web.UI.Page
     }
 
     /// <summary>
-    /// Arvotaaan rivit tavalliselle lotolle
+    /// Arvotaan rivit tavalliselle lotolle
     /// </summary>
     /// <param name="sender"></param>
     /// <param name="e"></param>
