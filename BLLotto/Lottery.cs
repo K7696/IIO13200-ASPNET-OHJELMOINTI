@@ -18,11 +18,14 @@ namespace BLLotto
         /// </summary>
         private Random randomizer = new Random();
 
+        // Luokan sisäiset propertyt
         private readonly int lotteryStart = 1;
         private readonly int lotteryEnd = 39;
-        public readonly int lotteryCharacterCount = 7;
         private readonly int vikingLotteryStart = 1;
         private readonly int vikingLotteryEnd = 49;
+
+        // Luokan julkiset propertyt
+        public readonly int lotteryCharacterCount = 7;
         public readonly int vikingLotteryCharacterCount = 6;
 
         #endregion // Properties
@@ -45,8 +48,10 @@ namespace BLLotto
         /// <summary>
         /// Generoi lottorivi
         /// </summary>
-        /// <param name="lotteryCharacterCount"></param>
-        /// <returns></returns>
+        /// <param name="lotteryCharacterCount">6 = Viking-lotto, 7 = Tavallinen lotto</param>
+        /// <param name="lotteryStart">Mistä numerosta aloitetaan arpominen</param>
+        /// <param name="lotteryEnd">Mihin numeroon lopetetaan arpominen</param>
+        /// <returns>Lottorivi</returns>
         private List<int> _getLotteryRow(int lotteryCharacterCount, int lotteryStart, int lotteryEnd)
         {
             List<int> lotteryRow = new List<int>();
@@ -54,11 +59,13 @@ namespace BLLotto
 
             for (int i = 0; i < lotteryCharacterCount; i++)
             {
+                // Tee niin kauan kuin lottorivi sisältää arvotun numeron
                 do
                 {
                     number = randomizer.Next(lotteryStart, lotteryEnd);
                 } while (lotteryRow.Contains(number));
 
+                // Lisätään lottoriviin uusi numero
                 lotteryRow.Add(number);
             }
 
@@ -73,7 +80,7 @@ namespace BLLotto
         /// Palauta loton rivi
         /// </summary>
         /// <param name="type">1 = Tavallinen lotto, 2 = Viking-lotto</param>
-        /// <param name="rows">Rivien lukumäärä</param>
+        /// <return>Lottorivi</return>
         public List<int> GenerateLottoRow(int type)
         {
             if(type == 1)
@@ -85,6 +92,5 @@ namespace BLLotto
         }
 
         #endregion // Public methods
-
     }
 }

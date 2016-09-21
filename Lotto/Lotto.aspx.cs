@@ -22,6 +22,7 @@ public partial class Lotto : System.Web.UI.Page
     private readonly string _inActiveDiv = "tab-pane fade in";
     private readonly string _activeClass = "active";
 
+    // BusinessLogiikka
     private Lottery _lotto { get; set; }
 
     #endregion // Properties
@@ -36,7 +37,7 @@ public partial class Lotto : System.Web.UI.Page
     /// <param name="rows">Lottorivien lkm</param>
     /// <param name="charactercount">6 = Viking-lotto, 7 tavallinen lotto</param>
     /// <param name="type">1 = Tavallinen lotto, 2 = Viking-lotto</param>
-    /// <returns></returns>
+    /// <returns>DataView:n, mikä sisältää lottorivit</returns>
     private DataView _getLottoDv(int rows, int charactercount, int type)
     {
         List<int> lotteryRow = new List<int>();
@@ -172,7 +173,7 @@ public partial class Lotto : System.Web.UI.Page
             }
             catch (Exception ex)
             {
-                lblSystemMessage.Text = ex.Message + ex.StackTrace.ToString();
+                lblSystemMessage.Text = ex.Message;
             }
         }
     }
@@ -204,7 +205,7 @@ public partial class Lotto : System.Web.UI.Page
             }
             catch (Exception ex)
             {
-                lblSystemMessage.Text = ex.Message + ex.StackTrace.ToString();
+                lblSystemMessage.Text = ex.Message;
             }
         }
     }
