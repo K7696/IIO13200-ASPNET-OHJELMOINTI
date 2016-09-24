@@ -70,6 +70,29 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Lotto", "Lotto\", "{4AE6218
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLLotto", "BLLotto\BLLotto.csproj", "{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CalendarController(1)", "CalendarController\", "{EAC71983-34B1-434D-A982-109225897411}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58707"
+		Debug.AspNetCompiler.PhysicalPath = "CalendarController\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58707\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58707"
+		Release.AspNetCompiler.PhysicalPath = "CalendarController\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58707\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58707"
+		SlnRelativePath = "CalendarController\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeSpan", "DateTimeSpan\DateTimeSpan.csproj", "{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +115,14 @@ Global
 		{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAB2FA77-D17C-449A-B62B-BDAFF7623E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC71983-34B1-434D-A982-109225897411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC71983-34B1-434D-A982-109225897411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC71983-34B1-434D-A982-109225897411}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC71983-34B1-434D-A982-109225897411}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
