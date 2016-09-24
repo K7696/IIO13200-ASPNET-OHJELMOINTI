@@ -5,7 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>CalendarController</title>
-    
+    <style>
+        .hidden{
+            visibility:hidden;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -18,17 +22,21 @@
                 <asp:Label ID="lblChosenDate" runat="server" Text=""></asp:Label>
                 <br />
                 <span><b>Valitun päivän ja tämän päivän erotus: </b></span>
-                <asp:Label ID="lblAllDays" runat="server" Text=""></asp:Label>
-                <span> päivää</span>
+                <span id="allDays" runat="server" class="hidden">
+                    <asp:Label ID="lblAllDays" runat="server" Text=""></asp:Label>
+                    <span> päivää</span>
+                </span>               
                 <br />
                 <span><b>Päivää / Kuukautta / Vuotta</b></span>
                 <br />
-                <asp:Label ID="lblDateDifference" runat="server" Text=""></asp:Label>
-                <span> päivää /</span>
-                <asp:Label ID="lblMonthDifference" runat="server" Text=""></asp:Label>
-                <span> kuukautta /</span>
-                <asp:Label ID="lblYearDifference" runat="server" Text=""></asp:Label>
-                <span> vuotta</span>
+                <span id="otherDays" runat="server" class="hidden">
+                    <asp:Label ID="lblDateDifference" runat="server" Text=""></asp:Label>
+                    <span> päivää /</span>
+                    <asp:Label ID="lblMonthDifference" runat="server" Text=""></asp:Label>
+                    <span> kuukautta /</span>
+                    <asp:Label ID="lblYearDifference" runat="server" Text=""></asp:Label>
+                    <span> vuotta</span>
+                </span>
             </div>
             <br />
             <div>

@@ -49,6 +49,10 @@ public partial class CalendarController : System.Web.UI.Page
 
         // Vuodet
         lblYearDifference.Text = dateSpan.Years.ToString();
+
+        // Näytä tulokset
+        allDays.Attributes.Add("class", "");
+        otherDays.Attributes.Add("class", "");
     }
 
     /// <summary>
