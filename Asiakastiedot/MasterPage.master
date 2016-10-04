@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Asiakastiedot</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" />
+    <style>
+        .datatable th{
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="w3-black">
+        <h1 class="w3-margin-left">IIO13200 ASP.NET-OHJELMOINTI</h1>
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder id="body" runat="server">               
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="footer" runat="server">       
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

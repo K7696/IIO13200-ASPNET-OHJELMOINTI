@@ -93,6 +93,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CalendarController(1)", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeSpan", "DateTimeSpan\DateTimeSpan.csproj", "{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Asiakastiedot", "Asiakastiedot\", "{2D2B6681-CB1C-4A96-929B-F4B835269EDF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56425"
+		Debug.AspNetCompiler.PhysicalPath = "Asiakastiedot\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56425\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56425"
+		Release.AspNetCompiler.PhysicalPath = "Asiakastiedot\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56425\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56425"
+		SlnRelativePath = "Asiakastiedot\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +145,10 @@ Global
 		{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09FA5BD8-97BC-454D-8A8C-76C9B3FC1EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2B6681-CB1C-4A96-929B-F4B835269EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2B6681-CB1C-4A96-929B-F4B835269EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2B6681-CB1C-4A96-929B-F4B835269EDF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2B6681-CB1C-4A96-929B-F4B835269EDF}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
