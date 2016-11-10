@@ -137,6 +137,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VrAsikastiedot", "VrAsikast
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "levykauppax", "levykauppax\", "{70F18A7F-4C85-4BE1-A045-7C7EA397608F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49214"
+		Debug.AspNetCompiler.PhysicalPath = "levykauppax\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49214\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49214"
+		Release.AspNetCompiler.PhysicalPath = "levykauppax\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49214\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49214"
+		SlnRelativePath = "levykauppax\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,6 +197,10 @@ Global
 		{4F47EAFA-A7CC-464C-A2A9-FAE889BA9F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F47EAFA-A7CC-464C-A2A9-FAE889BA9F9F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F47EAFA-A7CC-464C-A2A9-FAE889BA9F9F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{70F18A7F-4C85-4BE1-A045-7C7EA397608F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F18A7F-4C85-4BE1-A045-7C7EA397608F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F18A7F-4C85-4BE1-A045-7C7EA397608F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F18A7F-4C85-4BE1-A045-7C7EA397608F}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
